@@ -1,0 +1,43 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19/08/2021, 09:35:25 PM
+    Author     : cesle
+*/
+.calculadora{
+  display:block; /*instruccion*/
+  margin:0 auto;/*centra calculadora*/
+  padding:20px;
+  background-color:#E3B9E1;/*color fondo*/
+  width:350px;/*ancho calculadora*/
+  height:450px;/*alto calculadora*/
+  border-radius: 25px;/*redondeo de bordes*/
+}
+.calculadora td button{
+  display:block;/*instruccion*/
+  width:60px;/*ancho boton*/
+  height:50px;/*alto boton*/
+  font-size: 20px;/*tamaño letra*/
+}
+#title{
+  display:block;
+  padding-top:1px;
+  color:#fff;
+  text-align: center;
+  width:300px;
+}
+#resultado{
+  display:block;
+  text-align: center;/*centrado texto*/
+  font-size: 30px;/*tamaño letra resultado*/
+  margin-bottom: 50px;/*margen inferior*/
+  width:300px;/*ancho*/
+  height: 100px;/*alto*/
+  line-height: 100px;/*el texto sea como el recuadro del resultado */
+  background-color:#fff;/**/
+  border-radius: 25px;/*borde redondo */
+  overflow-y: scroll;/*si es largo el numero no se vea feo */
+}
